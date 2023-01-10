@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://img.pikbest.com/backgrounds/20190831/technology-intelligent-face-recognition-background_1902486.jpg!bwr800");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: left;
+    justify-content: left;
+    color: cyan;  
+}
+
+.login-card, .login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px ){
+    .login-form {
+        padding: 3.5rem;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin: auto;
+    }
+    
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    fill: none;
+    background: transparent;
+    background-color: cyan;
+    border: solid 2px;
+    border-color:  black;
+    border-radius: 10px;
+  }
+
+  button {
+    border: 2px;
+    background-color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+  }
+
+.upload {
+    border-radius: 4px;
+    background-color: cyan;
+}
+
+.l1, .l3 , .l4 , .l5, .l6, .l7  {
+    color: cyan;
+}
+

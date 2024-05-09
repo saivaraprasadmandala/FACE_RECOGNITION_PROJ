@@ -1,4 +1,4 @@
-# FACE_RECOGNITION_PROJ
+# FaceLens
 A web page which detects the person when an image is uploaded from the dataset.
 
 =>you can install node_modules just by using "npm install
